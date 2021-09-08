@@ -1,5 +1,6 @@
 html {
 	box-sizing: border-box;
+	height: 100%;
 }
 *,*:before,*:after {
 	box-sizing: inherit;
@@ -7,6 +8,7 @@ html {
 	padding: 0;
 }
 body {
+	min-height: 100vh;
 	font-family: 'Spartan',sans-serif;
 	font-size: 15px;
 	color: hsl(300, 43%, 22%);
@@ -15,7 +17,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top left, bottom right;
-
 }
 @media (min-width: 800px) {
 	main {
